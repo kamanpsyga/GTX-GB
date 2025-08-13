@@ -2,7 +2,7 @@ import os
 import time
 from playwright.sync_api import sync_playwright, Cookie
 
-def add_server_time(server_url="https://gamepanel2.gtxgaming.co.uk/server/fa13b794"):
+def add_server_time(server_url="https://gamepanel2.gtxgaming.co.uk/server/7c310d8a"):
     """
     尝试登录 gamepanel2.gtxgaming.co.uk 并点击 "EXTEND 72 HOUR(S)" 按钮。
     优先使用 REMEMBER_WEB_COOKIE 进行会话登录，如果不存在则回退到邮箱密码登录。
