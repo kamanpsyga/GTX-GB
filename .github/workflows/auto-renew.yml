@@ -31,4 +31,7 @@ jobs:
         REMEMBER_WEB_COOKIE: ${{ secrets.REMEMBER_WEB_COOKIE }}
         LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
         LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
+        # 多服务器配置 - 选择其中一种方式设置
+        SERVER_URLS: ${{ secrets.SERVER_URLS }}
+        SERVER_LIST: ${{ secrets.SERVER_LIST }}
       run: python main.py
